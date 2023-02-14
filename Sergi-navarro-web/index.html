@@ -12,26 +12,35 @@
       
     ></script>
     <script defer src="index.js"></script>
+<!-- swiper js links -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
+
 <body>
     <header class="header">
        <nav class="nav">
-         <a href="/index.html"  class="logo nav-link">(҂⌣̀_⌣́)</a>
+         <a href="/Sergi-navarro-web/index.html"  class="logo nav-link"><img class="logo-nav" src="/Sergi-navarro-web/imagenes/logo.png" alt=""></a>
          <button class="nav-toggle" aria-label="Abrir menú">
            <i class="fas fa-bars"></i>
          </button>
          <ul class="nav-menu">
            <li class="nav-menu-item">
-             <a href="/responsive-navbar-yt-master/index.html" class="nav-menu-link nav-link">Inicio</a>
+             <a href="/Sergi-navarro-web/index.html" class="nav-menu-link nav-link">Inicio</a>
+           </li>
+           
+           <li class="nav-menu-item">
+             <a href="#Portfolio" class="nav-menu-link nav-link">Portfolio</a>
            </li>
            <li class="nav-menu-item">
-             <a href="/blog.html" class="nav-menu-link nav-link">Blog</a>
+             <a href="#sobremi" class="nav-menu-link nav-link">Sobre mí</a>
            </li>
            <li class="nav-menu-item">
-             <a href="/sobremi.html" class="nav-menu-link nav-link">Sobre mí</a>
-           </li>
-           <li class="nav-menu-item">
-             <a href="/contacto.html" class="nav-menu-link nav-link nav-menu-link_active"
+             <a href="#contacto" class="nav-menu-link nav-link nav-menu-link_active"
                >Contacto</a>
            </li>
          </ul>
@@ -42,25 +51,120 @@
        
      <div class="caja-1">
        <h1 class="h1-flex">SERGI NAVARRO <br><span class="span1">Web Developer</span></h1>
-       <h1 class="h2-principal">¿Quien soy?</h1>
+       <h1 id="sobremi" class="h2-principal">¿Quien soy?</h1>
        
        <p class="p-pricipal"><b class="p-texto"> Sergi Navarro, actualmente vivo en Valencia, y me dedico al desarrollo web especializado en frontend. Me dedico a crear sitios web y aplicaciones web atractivas y funcionales para mis clientes, siempre utilizando las últimas tecnologías y tendencias en el mundo del desarrollo web. Con una amplia experiencia en el campo, Soy conocido por mis habilidades para resolver problemas y el enfoque en la atención al detalle. Además, soy un apasionado por mi trabajo y siempre estoy dispuesto a aprender más y mejorar mis habilidades. En resumen, siempre estoy listo para afrontar cualquier desafío.
     </b>
     </p>
     
-       <h2 class="h2-principal">Mis Redes Sociales</h2>
+       <h2 class="h2-principal h1-contacto">Mis Redes Sociales</h2>
        <div class="flex-container-rrss">
-         <div class="rrss"><a class="r" href="https://www.instagram.com/sr.parker26/" class="" target="_blank"><img src="/imagenes/instagram.svg"></a></div>
-         <div class="rrss"><a href="https://www.youtube.com/channel/UCVzaD5PvSLsEYryZ2N6eHOw" class="" target="_blank"><img src="/imagenes/youtube (1).svg"></a></div>
-         <div class="rrss"><a href="https://www.linkedin.com/in/sergi-navarro-24227016a/" class="" target="_blank"><img src="/imagenes/linkedin-in.svg"></a></div>
-         <div class="rrss"><a href="https://codepen.io/SrParker98" class="" target="_blank"><img src="/imagenes/codepen.svg"></a></div>
+         <div class="rrss"><a class="r" href="https://www.instagram.com/sr.parker26/" class="" target="_blank"><img class="r" src="/Sergi-navarro-web/imagenes/instagram.svg" fill="none"></a></div>
+         <div class="rrss"><a href="https://www.youtube.com/channel/UCVzaD5PvSLsEYryZ2N6eHOw" class="" target="_blank"><img src="/Sergi-navarro-web/imagenes/youtube (1).svg"></a></div>
+         <div class="rrss"><a href="https://www.linkedin.com/in/sergi-navarro-24227016a/" class="" target="_blank"><img src="/Sergi-navarro-web/imagenes/linkedin-in.svg"></a></div>
+         <div class="rrss"><a href="https://codepen.io/SrParker98" class="" target="_blank"><img src="/Sergi-navarro-web/imagenes/codepen.svg"></a></div>
          
        </div>
-       <h3 class="h1-contacto">sergixu26@gmail.com</h3>
+       <h3 class="h1-contacto">Puedes escribirme en:<br> sergixu26@gmail.com</h3>
        
      </div>
- 
- 
+
+   
+
+<h1 id="Portfolio">Portfolio</h1>
+
+<div class="netflix-slider">
+  
+  <div class="swiper-container ">
+    <div class="swiper-wrapper ">
+      <div class="swiper-slide imagen-slider"><img class="imagen-slider" src="/Sergi-navarro-web/imagenes/fotoburger.jpg" alt="Movie Title"></div>
+      <div class="swiper-slide imagen-slider"><img class="imagen-slider" src="/Sergi-navarro-web/imagenes/screenshot.png" alt="Movie Title"></div>
+      <div class="swiper-slide imagen-slider"><img class="imagen-slider" src="/Sergi-navarro-web/imagenes/fotoburger1.jpg" alt="Movie Title"></div>
+      <div class="swiper-slide imagen-slider"><img class="imagen-slider" src="/Sergi-navarro-web/imagenes/wedding.jpg" alt="Movie Title"></div>
+      <div class="swiper-slide imagen-slider"><img class="imagen-slider" src="/Sergi-navarro-web/imagenes/wedding1.jpg" alt="Movie Title"></div>
+      <div class="swiper-slide imagen-slider"><img class="imagen-slider"  src="/Sergi-navarro-web/imagenes/wedding2.jpg" alt="Movie Title"></div>
+      <div class="swiper-slide imagen-slider"><img class="imagen-slider" src="/Sergi-navarro-web/imagenes/wedding3.jpg" alt="Movie Title"></div>
+    </div>
+    <!-- Add Pagination -->
+    <!-- <div class="swiper-pagination"></div> -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+</div>
+
+<!-- Swiper JS -->
+<script src="../package/js/swiper.min.js"></script>
+
+<script>
+  var swiper = new Swiper('.swiper-container', {
+    slidesPerView: 3,
+    spaceBetween: 10,
+    slidesPerGroup: 2,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>
+
+<section class="contact-container">
+  
+  <h1 class="h1-principal">Contacto</h1>
+  
+  <div class="contact-wrapper">
+  
+  <!-- Left contact page --> 
+  
+    <form id="contacto" action="https://formsubmit.co/sergixu26@gmail.com" method="POST" id="contact-form" class="form-horizontal" role="form">
+      
+       
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="name" placeholder="NOMBRE" name="name" value="" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+        </div>
+      </div>
+
+      <textarea class="form-control" rows="10" placeholder="EN QUE PUEDO AYUDARTE?" name="message" required></textarea>
+      
+      <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+        <div class="alt-send-button">
+          <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+        </div>
+      
+      </button>
+      <input type="hidden" name="_next" value="https://www.serginavarroweb.com/">
+    </form>
+    
+  <!-- Left contact page --> 
+    
+      <div class="direct-contact-container">
+
+        <ul class="contact-list">
+          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Valencia, España</span></i></li>
+          
+          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="" title="llámame">663 576 403</a></span></i></li>
+          
+          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Mandame un email">sergixu26@gmail.com</a></span></i></li>
+          
+        </ul>
+
+      </div>
+    
+  </div>
+  
+</section>  
+  
  
     
  
